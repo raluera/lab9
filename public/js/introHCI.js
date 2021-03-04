@@ -6,6 +6,7 @@ $(document).ready(function() {
 })
 
 // Function that is called when the document is ready.
+//could not figure it out
 function initializePage() {
     $.get('/lab/today', onServerResponse);
 }
